@@ -1,0 +1,72 @@
+Visuals
+Minimalist design, mostly white, with some black and grey.
+Text should be in a tech-looking font, such as Consolas.
+All pictures should be mostly in black and white, only the main object in the image should be in color.
+Use animations only when needed, and keep them simple.
+The website should be optimized for both desktop, tablet and mobile viewing.
+The SiteScope logo should be used in all relevant places
+
+
+
+Context
+I am an early stage construction technology co-founder based in Boston MA.
+I am starting to build a pre-construction platform for mid-sized US general contractors working in the high-rise residential, commercial or industrial spaces.
+
+My platform, SiteScope, intends to us generative and agentic AI to help construction companies to improve their incoming project flow, increase bidding chances, and de-risk their bids
+
+
+
+Core audience
+CEOs of small and medium size US contractors.
+All language and images should be tailored to their tastes. 
+
+
+
+Other information
+This website will be deployed in AWS, database will be hosted on Google Cloud Firestore.
+
+
+Structure overview
+- Main page
+-- Product
+-- Contact
+-- Join Waitlist -> the button for Join Waitlist should be visually highlighted
+
+There should be also 2 parts of the website inaccessible to general public
+-Landing pages
+-Subdomain for agents
+
+Each page should contain the key messages and functionalities as per below.
+You are free to add other important information, but keep it simple.
+
+
+-Main Page
+Win the right bids, at the right price, with secure Agentic AI.
+Built by MIT alumni
+Explore more
+
+-- Product
+We are automating precon with secure agentic AI:
+Project sourcing -> coming soon
+ Entering new markets & market research
+Bidding Strategy -> focus
+Bid administration -> focus
+Estimation / takeoffs -> coming soon
+ Material price forecast
+Risk sensing & risk pricing -> coming soon
+ Scope gaps
+ Material price risks
+ Local regulatory compliance risks
+Regulatory compliance and permitting -> coming soon
+RFP response -> focus
+Below should be a prominent button to join the waitlist
+
+
+--Contact
+Create a form that has a name, surname, e-mail, phone number, and a field for a customer query
+This form should send an e-mail with this information to paveltk@mit.edu
+
+--Joint Waitlist
+We are building the future of precon.
+Sign up for updates below
+There should be a field taking the e-mail, and adding it to a Cloud Firestore collection. The information added to this collection should be: e-mail: customer e-mail, source: general_signup
