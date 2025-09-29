@@ -1,72 +1,137 @@
-Visuals
-Minimalist design, mostly white, with some black and grey.
-Text should be in a tech-looking font, such as Consolas.
-All pictures should be mostly in black and white, only the main object in the image should be in color.
-Use animations only when needed, and keep them simple.
-The website should be optimized for both desktop, tablet and mobile viewing.
-The SiteScope logo should be used in all relevant places
+Website Build Instructions for Codex
+Visual Guidelines
 
+Use a minimalist design: mostly white background, with accents in black and grey.
+
+Text must use a modern, tech-oriented font (e.g., DIN Next).
+
+Images and videos: always in black and white, with only one key object in muted orange or similar accent color (consistent with brand/video style).
+
+Animations: use only when necessary, keep them simple and unobtrusive.
+
+Ensure full responsiveness: optimize for desktop, tablet, and mobile.
+
+Display the SiteScope logo in all relevant sections.
+
+Videos: must play without sound.
+
+You may insert relevant pictures and videos from the project folder, but you are not required to use all of them.
 
 
 Context
-I am an early stage construction technology co-founder based in Boston MA.
-I am starting to build a pre-construction platform for mid-sized US general contractors working in the high-rise residential, commercial or industrial spaces.
 
-My platform, SiteScope, intends to us generative and agentic AI to help construction companies to improve their incoming project flow, increase bidding chances, and de-risk their bids
+Founder profile: Early-stage construction technology co-founder in Boston, MA.
 
+Platform focus: SiteScope, a pre-construction platform for mid-sized U.S. general contractors in high-rise residential, commercial, and industrial sectors.
 
+Core value: Generative and agentic AI that improves project pipeline, increases bidding success, and reduces risk in pre-construction.
 
-Core audience
-CEOs of small and medium size US contractors.
-All language and images should be tailored to their tastes. 
+Target Audience
 
+CEOs, Business Development Leaders, and Estimators at small-to-medium U.S. contractors.
 
-
-Other information
-This website will be deployed in AWS, database will be hosted on Google Cloud Firestore.
+Tone and visuals: professional, authoritative, and tailored to their responsibilities and preferences.
 
 
-Structure overview
-- Main page
--- Product
--- Contact
--- Join Waitlist -> the button for Join Waitlist should be visually highlighted
+Technical details
 
-There should be also 2 parts of the website inaccessible to general public
--Landing pages
--Subdomain for agents
-
-Each page should contain the key messages and functionalities as per below.
-You are free to add other important information, but keep it simple.
+The website will be hosted on Amazon Amplify Hosting
 
 
--Main Page
-Win the right bids, at the right price, with secure Agentic AI.
+
+Website Structure
+
+Main Page
+
+Product Page
+
+Contact Page
+
+Join Waitlist Page (button must be visually highlighted)
+
+Two restricted sections:
+
+Landing pages (not public).
+
+Subdomain for agents (not public).
+
+Main Page Content
+
+
+
+Problem Statement:
+
+“Demand is exploding—housing shortages, infrastructure rebuilds, and the race to net-zero.
+But 80% of bids fail, and 30% of projects lose money. Bidding is broken. SiteScope changes that.”
+
+Headline:
+
+“Stop gambling on bids. Start winning them.”
+
+Sub-headline:
+
+“SiteScope helps mid-sized contractors find the right projects, assemble winning proposals, and cut risk—with secure agentic AI.”
+
+Tagline:
+
 Built by MIT alumni
-Explore more
 
--- Product
-We are automating precon with secure agentic AI:
-Project sourcing -> coming soon
- Entering new markets & market research
-Bidding Strategy -> focus
-Bid administration -> focus
-Estimation / takeoffs -> coming soon
- Material price forecast
-Risk sensing & risk pricing -> coming soon
- Scope gaps
- Material price risks
- Local regulatory compliance risks
-Regulatory compliance and permitting -> coming soon
-RFP response -> focus
-Below should be a prominent button to join the waitlist
+Include a clear [Explore more] call-to-action.
+
+Product Page Content
+
+Section intro: “We are automating preconstruction with secure agentic AI.”
+
+Three core pillars (aligned with video):
+
+Find Projects – profitability scoring & best-fit analysis, bidding strategy, bid administration.
+
+Estimation/Takeoffs (coming soon) – scope gap detection, risk sensing & risk pricing, local regulatory compliance risks.
+
+RFP Response Generation – automated and intelligent.
+
+Audience-specific value statements:
+
+For Business Development: “Target projects that fit your strategy.”
+
+For Estimators: “Never miss a requirement or scope gap.”
+
+For Executives: “Improve win rates and reduce project risk.”
+
+Place a prominent Join Waitlist button at the end.
 
 
---Contact
-Create a form that has a name, surname, e-mail, phone number, and a field for a customer query
-This form should send an e-mail with this information to paveltk@mit.edu
 
---Joint Waitlist
-We are building the future of precon.
-Sign up for updates below
-There should be a field taking the e-mail, and adding it to a Cloud Firestore collection. The information added to this collection should be: e-mail: customer e-mail, source: general_signup
+
+Contact Page
+
+Include a form with the following fields:
+
+Name
+
+Surname
+
+E-mail
+
+Phone number
+
+Customer query (free text)
+
+Form submissions must send an e-mail with all fields to: paveltk@mit.edu.
+
+Join Waitlist Page
+
+Headline:
+
+“We are building the future of preconstruction. Sign up for updates below.”
+
+Form requirements:
+
+Input field for e-mail address.
+
+Submission must save to a Cloud Firestore collection with this structure:
+
+{
+  "email": "<customer email>",
+  "source": "general_signup"
+}
