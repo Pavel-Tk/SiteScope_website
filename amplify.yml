@@ -1,0 +1,22 @@
+version: 1
+applications:
+  - appRoot: .
+    frontend:
+      phases:
+        preBuild:
+          commands: []
+        build:
+          commands: []
+      artifacts:
+        baseDirectory: .
+        files:
+          - '**/*'
+      customHeaders:
+        - pattern: '**/*'
+          headers:
+            - key: Cache-Control
+              value: max-age=31536000
+            - key: X-Frame-Options
+              value: SAMEORIGIN
+            - key: X-Content-Type-Options
+              value: nosniff

@@ -1,0 +1,46 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized dashboard illustration</title>
+  <desc id="desc">An abstract analytics dashboard with charts and gauges in purple and teal hues.</desc>
+  <rect x="32" y="40" width="576" height="340" rx="32" fill="url(#paint0_linear)"/>
+  <rect x="64" y="74" width="140" height="36" rx="12" fill="rgba(15, 23, 42, 0.45)"/>
+  <rect x="224" y="74" width="180" height="36" rx="12" fill="rgba(15, 23, 42, 0.45)"/>
+  <rect x="424" y="74" width="152" height="36" rx="12" fill="rgba(15, 23, 42, 0.45)"/>
+  <rect x="64" y="130" width="248" height="206" rx="20" fill="white" opacity="0.9"/>
+  <rect x="332" y="130" width="220" height="120" rx="20" fill="white" opacity="0.9"/>
+  <rect x="332" y="262" width="220" height="74" rx="20" fill="white" opacity="0.9"/>
+  <rect x="64" y="354" width="200" height="14" rx="7" fill="rgba(148, 163, 184, 0.45)"/>
+  <rect x="276" y="354" width="124" height="14" rx="7" fill="rgba(148, 163, 184, 0.45)"/>
+  <rect x="412" y="354" width="164" height="14" rx="7" fill="rgba(148, 163, 184, 0.45)"/>
+  <path d="M100 198C132 152 168 156 192 188C216 220 246 224 276 188" stroke="url(#paint1_linear)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M112 224H292" stroke="rgba(99, 102, 241, 0.3)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M112 248H264" stroke="rgba(14, 165, 233, 0.4)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M112 272H236" stroke="rgba(79, 70, 229, 0.4)" stroke-width="8" stroke-linecap="round"/>
+  <rect x="356" y="156" width="72" height="72" rx="16" fill="rgba(99, 102, 241, 0.12)"/>
+  <path d="M392 172C410 172 424 186 424 204C424 222 410 236 392 236" stroke="url(#paint2_linear)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M392 236C374 236 360 222 360 204C360 186 374 172 392 172" stroke="url(#paint3_linear)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="392" cy="204" r="16" fill="white"/>
+  <path d="M452 168H520" stroke="rgba(148, 163, 184, 0.55)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M452 196H520" stroke="rgba(99, 102, 241, 0.45)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M452 224H512" stroke="rgba(14, 165, 233, 0.45)" stroke-width="10" stroke-linecap="round"/>
+  <rect x="356" y="280" width="72" height="28" rx="10" fill="rgba(99, 102, 241, 0.16)"/>
+  <rect x="440" y="280" width="96" height="28" rx="10" fill="rgba(14, 165, 233, 0.26)"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="32" y1="40" x2="568" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#312e81"/>
+      <stop offset="0.5" stop-color="#3730a3"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="100" y1="224" x2="276" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear" x1="392" y1="172" x2="424" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear" x1="360" y1="172" x2="392" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+</svg>
